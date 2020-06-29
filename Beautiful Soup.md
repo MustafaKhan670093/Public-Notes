@@ -45,7 +45,7 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. Below are the
    
    Quick side note: ```print(soup.prettify())``` returns the html source code in a formmated way.
 
-   * ```links = soup.find_all("a")``` puts all the html 'a' tags on the page in a python list. This result can be viewed using ```print(links)```
+   * ```links = soup.find_all("a")``` puts all the html 'a' tags on the page in a python list. This result can be viewed using ```print(links)``` . Alternatively, one could use the ```soup.a``` or ```soup.find('a')``` in order to find the first a tag on the webpage.
    * To extract a link with text such as the "About" link on the webpage, use the built in "text" function to access the text between the <a> </a> tags.
      ```
      for link in links:
