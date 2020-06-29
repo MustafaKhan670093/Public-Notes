@@ -10,7 +10,7 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo below are the 
 
 1. **Imports**
 
-```
+   ```
 import requests
 from bs4 import BeautifulSoup
 ```
