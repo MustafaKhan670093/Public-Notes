@@ -52,9 +52,7 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. Below are the
             print(link.attrs['href'])    #This line would print the href attribute or link within the "About" 'a' tag.
      ```
 
-print(links)
-print("\n")
-```
-I got the following error: FeatureNotFound: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+**Testing Understanding Of First Few Steps:**
 
-In order to get around this, I followed the instructions 
+I will now obtain the links from the following website: https://www.whitehouse.gov/briefings-statements/. This is the white house's website and contains presidential briefings and statements. The goal of this test is to extract all of the links on the page that point to the briefings and statements. 
+
