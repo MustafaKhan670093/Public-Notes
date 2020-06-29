@@ -42,6 +42,8 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. Below are the
 4. Using **Beautiful Soup** + creating a **soup** class to parse and process the source code
 
    ```soup = BeautifulSoup(src, 'lxml')```
+   
+   Quick side note: ```print(soup.prettify())``` returns the html source code in a formmated way.
 
    * ```links = soup.find_all("a")``` puts all the html 'a' tags on the page in a python list. This result can be viewed using ```print(links)```
    * To extract a link with text such as the "About" link on the webpage, use the built in "text" function to access the text between the <a> </a> tags.
