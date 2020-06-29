@@ -21,9 +21,19 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo below are the 
 
    ```
    result = requests.get("https://www.google.com")
+   ```
    
-   #Note: To make sure that the website is accessible, we can ensure that we obtain a 200 OK response 
-   to indicate that the page is indeed present. Do this using print(result.status_code)
+   Note: To make sure that the website is accessible, check for a 200 OK response to indicate that the page is indeed present. Do this using: ``` print(result.status_code) ```
+   
+   For other potential status codes you may encounter consult the following
+   Wikipedia page: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+   
+   We can also check the HTTP header of the website to verify that we have 
+   indeed accessed the correct page: ```print(result.headers)```
+   
+   For more information on HTTP headers and the information one can obtain from them,
+   consult: https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+   
    ```
    
 
