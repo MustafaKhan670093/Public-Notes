@@ -17,7 +17,7 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. Below are the
 
 2. Using the **Requests Module**
 
-   The requests module allows you to send HTTP requests using Python. The HTTP request returns a Response Object with all the response data (content, encoding,     status, etc). Using the requests module, we use the "get" function provided in order to access the webpage provided as an argument to this function.
+   The requests module allows you to send HTTP requests using Python. The HTTP request returns a Response Object with all the response data (content, encoding,     status, etc). Using the requests module, we use the "get" function in order to access the webpage as an argument to this function.
 
    ```
    result = requests.get("https://www.google.com")
@@ -35,8 +35,9 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. Below are the
    consult: https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
    
    
+3. Extracting the **Content** of the page (and storing it in a variable)
 
-src = result.content
+   ```src = result.content```
 
 soup = BeautifulSoup(src, 'lxml')
 
