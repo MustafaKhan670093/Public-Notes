@@ -65,7 +65,7 @@ src = result.content
 soup = BeautifulSoup(src, "lxml")
 
 urls = []
-#After using inspect element on the website we notice the links to the briefings are in <a> tags stored in <h2> tags. Thus:
+#After using inspect element on the website we notice the links to the briefings are in <a> tags stored in between <h2> tags. Thus:
 for h2_tag in soup.find_all("h2"):
    a_tag = h2_tag.find("a")
    urls.append(a_tag.attrs['href'])
