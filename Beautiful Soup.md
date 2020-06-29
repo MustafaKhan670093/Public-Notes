@@ -19,7 +19,12 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo below are the 
 
    The requests module allows you to send HTTP requests using Python. The HTTP request returns a Response Object with all the response data (content, encoding,     status, etc). Using the requests module, we use the "get" function provided in order to access the webpage provided as an argument to this function.
 
-result = requests.get("https://www.google.com")
+   ```
+   result = requests.get("https://www.google.com")
+   
+   #Note: To make sure that the website is accessible, we can ensure that we obtain a 200 OK response to indicate that the page is indeed present. Do this using print(result.status_code)
+   ```
+   
 
 src = result.content
 
