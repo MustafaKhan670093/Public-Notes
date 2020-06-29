@@ -56,3 +56,23 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. Below are the
 
 I will now obtain the links from the following website: https://www.whitehouse.gov/briefings-statements/. This is the white house's website and contains presidential briefings and statements. The goal of this test is to extract all of the links on the page that point to the briefings and statements. 
 
+```
+import requests
+from bs4 import BeautifulSoup
+
+result = requests.get("https://www.whitehouse.gov/briefings-statements/")
+src = result.content
+soup = BeautifulSoup(src, "lxml")
+
+urls = []
+#After using inspect element on the website we notice the links to the briefings are in <a> tags stored in <h2> tags. Thus:
+for h2_tag in soup.find_all("h2"):
+   a_tag = h2_tag.find("a")
+   urls.append(a_tag.attrs['href'])
+   
+print(urls)  #To check if everything works.
+```
+
+
+
+
