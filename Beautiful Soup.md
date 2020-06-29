@@ -22,7 +22,8 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo below are the 
    ```
    result = requests.get("https://www.google.com")
    
-   #Note: To make sure that the website is accessible, we can ensure that we obtain a 200 OK response to indicate that the page is indeed present. Do this using print(result.status_code)
+   #Note: To make sure that the website is accessible, we can ensure that we obtain a 200 OK response 
+   to indicate that the page is indeed present. Do this using print(result.status_code)
    ```
    
 
