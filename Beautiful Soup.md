@@ -34,7 +34,6 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo below are the 
    For more information on HTTP headers and the information one can obtain from them,
    consult: https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
    
-   ```
    
 
 src = result.content
