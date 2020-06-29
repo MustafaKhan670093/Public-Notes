@@ -1,2 +1,2 @@
 # Public-Notes
-A collection of notes on a range of topics
+This repo contains a collection of notes on topics I have or am currently learning about. 
