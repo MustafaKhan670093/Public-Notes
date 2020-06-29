@@ -38,10 +38,19 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. Below are the
 3. Extracting the **Content** of the page (and storing it in a variable)
 
    ```src = result.content```
+ 
+4. Using **Beautiful Soup** + creating a **soup** class to parse and process the source code
 
-soup = BeautifulSoup(src, 'lxml')
+   ```soup = BeautifulSoup(src, 'lxml')```
 
-links = soup.find_all("a")
+   * ```links = soup.find_all("a")``` puts all the html 'a' tags on the page in a python list. This result can be viewed using ```print(links)```
+   * To extract a link with text such as the "About" link on the webpage, use the built in "text" function to access the text between the <a> </a> tags.
+     ```
+     for link in links:
+         if "About" in link.text:
+            print(link)
+            print(link.attrs['href'])    #This line would print the href attribute or link within the "About" 'a' tag.
+     ```
 
 print(links)
 print("\n")
