@@ -1,21 +1,21 @@
-# Notes On Learning How To Use Beautiful Soup
+# Learning How To Use Beautiful Soup
 
 ### Introduction
 
 Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
 
-###Process
+### Process
 
 Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo below are the main lines of code that need to be understood.
 
-1. *Imports*
+1. **Imports**
 
 ```
 import requests
 from bs4 import BeautifulSoup
 ```
 
-2. Using the *Requests Module*
+2. Using the **Requests Module**
 
 The requests module allows you to send HTTP requests using Python. The HTTP request returns a Response Object with all the response data (content, encoding, status, etc).
 Using the requests module, we use the "get" function provided in order to access
