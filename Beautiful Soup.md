@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 
 2. Using the **Requests Module**
 
-The requests module allows you to send HTTP requests using Python. The HTTP request returns a Response Object with all the response data (content, encoding, status, etc). Using the requests module, we use the "get" function provided in order to access the webpage provided as an argument to this function.
+   The requests module allows you to send HTTP requests using Python. The HTTP request returns a Response Object with all the response data (content, encoding,     status, etc). Using the requests module, we use the "get" function provided in order to access the webpage provided as an argument to this function.
 
 result = requests.get("https://www.google.com")
 
