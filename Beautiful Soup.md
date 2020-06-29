@@ -75,6 +75,13 @@ for h2_tag in soup.find_all("h2"):
 print(urls)  #To check if everything works.
 ```
 
+5. **Altering source code** using Beautiful Soup
+   ```
+   tag = soup.a
+   print(tag)
+   tag.name = "blockquote"
+   print(tag)
+   ```
 
 
 
