@@ -92,7 +92,7 @@ print(urls)  #To check if everything works.
    
 6. Getting **String Content** from websites
 
-   In the following lines of code, ```tag.string``` returns the text in between an html tag.
+   In the following lines of code, ```tag.string``` or ```tag.text``` returns the text in between an html tag.
    ```
    tag = soup.find_all('b')[3]
    print(tag.string)
