@@ -79,8 +79,28 @@ print(urls)  #To check if everything works.
    ```
    tag = soup.a
    print(tag)
+   ```
+   This results in: ```<a> ... </a>```
+   
+   ```
    tag.name = "blockquote"
    print(tag)
+   ```
+   Which results in: ```<blockquote> ... </blockquote>```
+   
+   Another thing that can be done is delete ID's in tags. For instance, if this were our line of code ```<a id=1> ... </a>```, then ```del tag['id']``` would result in ```<a> ... </a>```.
+   
+6. Getting **String Content** from websites
+
+   In the following lines of code, ```tag.string``` returns the text in between an html tag.
+   ```
+   tag = soup.find_all('b')[3]
+   print(tag.string)
+   ```
+   
+   Another thing that can be done is use the replace with function to replace the content of the string with something else using:
+   ```
+   tag.string.replace_with("This is another string")
    ```
 
 
