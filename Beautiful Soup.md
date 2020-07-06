@@ -72,7 +72,7 @@ for h2_tag in soup.find_all("h2"):
    a_tag = h2_tag.find("a")
    urls.append(a_tag.attrs['href'])
    
-print(urls)  #To check if everything works.
+print(urls)  #To check if everything is working.
 ```
 
 5. **Altering source code** using Beautiful Soup
