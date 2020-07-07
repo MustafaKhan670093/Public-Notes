@@ -49,3 +49,8 @@ Our Stop Sign Detector consists of a Haar Cascade classifier. Compared to an alt
 ### Using the Grid Map and Elevation Mapping libraries to create a 2.5D gravity-aligned elevation map around the vehicle
 
 ### Experiments to test the effectiveness of an improvement in the design and structure of a self driving car
+
+### What are  Universal Transverse Mercator (UTM) coordinates?
+
+### SAE levels of autonomy
+
