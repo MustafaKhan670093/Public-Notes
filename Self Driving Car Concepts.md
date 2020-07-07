@@ -46,4 +46,4 @@ Our Stop Sign Detector consists of a Haar Cascade classifier. Compared to an alt
 
 ### What is Model Predictive Control (MPC) ?
 
-###
+### Using the Grid Map and Elevation Mapping libraries to create a 2.5D gravity-aligned elevation map around the vehicle
