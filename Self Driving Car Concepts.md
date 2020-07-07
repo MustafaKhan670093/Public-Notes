@@ -32,4 +32,10 @@ asphalt. Each laser scan is searched for regions with highintensity gradients. T
 
 https://www.cs.toronto.edu/~tingwuwang/semantic_segmentation.pdf
 
-### 
+### Using RANSAC to reject outliers
+
+### Kalman Filter
+
+Understanding the technical math and several programming examples + use cases of a kalman filter (also evaluate different types of kalman filters)
+
+###
