@@ -38,4 +38,8 @@ https://www.cs.toronto.edu/~tingwuwang/semantic_segmentation.pdf
 
 Understanding the technical math and several programming examples + use cases of a kalman filter (also evaluate different types of kalman filters)
 
+### Stop Sign Detection
+
+Our Stop Sign Detector consists of a Haar Cascade classifier. Compared to an alternative deep learning object detector such as YOLO, Haar Cascades run very fast on CPUs. They are also very simple to train and tune. We trained our classifier using OpenCV’s Haar Cascade trainer on a custom hand-labeled dataset. We obtained the best results when images were first pre-processed using adaptive histogram equalization. Once a Stop Sign is localized in a camera frame, we determine its relative depth using LiDAR.
+
 ###
