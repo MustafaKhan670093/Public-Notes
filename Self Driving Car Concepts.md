@@ -58,3 +58,5 @@ Our Stop Sign Detector consists of a Haar Cascade classifier. Compared to an alt
 
 ### SAE levels of autonomy
 
+### What is redundancy?
+
