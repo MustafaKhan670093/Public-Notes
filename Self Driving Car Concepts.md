@@ -8,6 +8,10 @@ This file includes different self driving car concepts that I am in the process 
 
 What is the difference between the two and what are the use cases, advantages and disadvantages of using one over the other in self driving cars?
 
+The main difference between CPU and GPU architecture is that a CPU is designed to handle a wide-range of tasks quickly (as measured by CPU clock speed), but are limited in the concurrency of tasks that can be running. A GPU is designed to quickly render high-resolution images and video concurrently.
+
+Because GPUs can perform parallel operations on multiple sets of data, they are also commonly used for non-graphical tasks such as machine learning and scientific computation. Designed with thousands of processor cores running simultaneously, GPUs enable massive parallelism where each core is focused on making efficient calculations.(Source: https://www.omnisci.com/technical-glossary/cpu-vs-gpu)
+
 ### Autoware and Apollo
 
 ### Sensors
