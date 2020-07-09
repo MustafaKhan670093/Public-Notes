@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This file includes different self driving car concepts that I am in the process of learning and my notes on them. 
+This file includes different self driving car concepts that I am in the process of learning and my notes on those topics. 
 
 ### CPU vs GPU.   (and FPGAs ?)
 
