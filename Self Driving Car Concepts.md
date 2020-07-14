@@ -62,3 +62,7 @@ Our Stop Sign Detector consists of a Haar Cascade classifier. Compared to an alt
 
 ### What is redundancy?
 
+In engineering, redundancy is the duplication of critical components or functions of a system with the intention of increasing reliability of the system, usually in the form of a backup or fail-safe, or to improve actual system performance.
+
+### What is Optical Flow?
+
