@@ -32,6 +32,10 @@ What are steerable filters? What are the alternatives? What is the Lateral Chall
 LiDAR-Based Lane Detection: This method takes advantage of the difference in infrared reflectivity between lane marking paint and road
 asphalt. Each laser scan is searched for regions with highintensity gradients. The resulting set of points are then accumulated over several laser scans in order to get a denser result. Scans are accumulated over a sliding window and aligned using Iterative Closest Point. The resulting set of points are then projected into a Bird’s Eye View image
 
+Does camera-lidar fusion improve performance?
+
+This paper: https://arxiv.org/pdf/1809.07941v1.pdf and this github repo: https://github.com/Shuijing725/ece498sm_project say it does improve performance.
+
 ### Semantic Segmentation
 
 https://www.cs.toronto.edu/~tingwuwang/semantic_segmentation.pdf
