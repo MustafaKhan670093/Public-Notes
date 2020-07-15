@@ -23,6 +23,8 @@ GPS/IMU
 
 ### Writing in C++ using Robot Operating System (ROS)
 
+Robot Operating System is robotics middleware. Although ROS is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management.
+
 ### Lane Detection
 
 Different methods. One example is: First, we convert incoming images into a Bird’s Eye View perspective. Second, we filter the images to obtain lane marking pixels using three independent methods, two based on vision and one based on LiDAR. We then fit a centerline to each of the resulting pixel masks. This results in independent measurements of the centerline which are combined in a single Kalman filter. We model the centerline of the vehicle’s ego-lane as a quadratic. 
