@@ -56,7 +56,13 @@ Our Stop Sign Detector consists of a Haar Cascade classifier. Compared to an alt
 
 ### What is a ProportionalIntegral (PI) controller, a lateral controller and a feedback-linearized controller (FBL)?
 
+https://www.youtube.com/watch?v=4Y7zG48uHRo - PID controllers explanation
+
 ### What is Model Predictive Control (MPC) ?
+
+https://medium.com/@jonathan_hui/lane-keeping-in-autonomous-driving-with-model-predictive-control-50f06e989bc9
+
+
 
 ### Using the Grid Map and Elevation Mapping libraries to create a 2.5D gravity-aligned elevation map around the vehicle
 
