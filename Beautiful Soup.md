@@ -103,9 +103,10 @@ print(urls)  #To check if everything is working.
    tag.string.replace_with("This is another string")
    ```
 
-7. **Example Project** 
+**Another Example Project**
 
-   I am working on writing a program that takes in a movie name as an input and returns the IMDB rating of that movie. This is the code I have worked on so far:
+I am working on writing a program that takes in a movie name as an input and returns the IMDB rating of that movie. This is the code I have worked on so far:
+
    ```
    import requests
    from bs4 import BeautifulSoup
