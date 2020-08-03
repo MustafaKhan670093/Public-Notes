@@ -103,5 +103,41 @@ print(urls)  #To check if everything is working.
    tag.string.replace_with("This is another string")
    ```
 
-7.
+7. **Example Project** 
+
+   I am working on writing a program that takes in a movie name as an input and returns the IMDB rating of that movie. This is the code I have worked on so far:
+   ```
+   import requests
+   from bs4 import BeautifulSoup
+
+   print("This program takes in a movie name and returns it's IMDB rating as the output.")
+
+   #Taking in Movie Name as input
+   input = input(str("Which movie's rating would you like to know about? : "))
+
+   print("Please wait while I search for your input on the web...")
+
+   #If there are spaces in the name of the movie, a proper URL won't be formed
+   #so we add '+'s where there are spaces: ' '.
+   movie = input.replace(' ', "+")
+
+   #Adjusting the query to include the movie name and the words IMDB rating
+   query = str(movie) + "+IMDB+Rating"
+
+   #Forming the URL using the .format(query) function. This step produces the url for a google search.
+   url = 'https://www.google.com/search?client=ubuntu&channel=fs&q={}&ie=utf-8&oe=utf-8'.format(query)
+
+   #Performing the google search using the url and the requests library
+   result = requests.get(url)
+
+   #Getting all the html/src code from the search result
+   src = result.content
+
+   #Turning that src code into a beautiful soup object so that it can be parsed
+   soup = BeautifulSoup(src, 'lxml')
+
+   # TODO: Getting all the movie names, links and ratings that come up in the search result
+   ```
+   
+
 
