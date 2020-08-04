@@ -160,5 +160,10 @@ I am working on writing a program that takes in a movie name as an input and ret
       except:
          pass
 
+   #The reason I used try and except is because we only want search results that have both the movie
+   #title as well as the movie rating. Any results that don't have this will fail when the line
+   #rating = span_tag.text occurs in the program. After resulting in an error, the except: line is necessary
+   #for the program to continue running.
+
    ```
    
