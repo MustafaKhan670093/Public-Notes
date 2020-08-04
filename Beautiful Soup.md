@@ -137,8 +137,28 @@ I am working on writing a program that takes in a movie name as an input and ret
    #Turning that src code into a beautiful soup object so that it can be parsed
    soup = BeautifulSoup(src, 'lxml')
 
-   # TODO: Getting all the movie names, links and ratings that come up in the search result
+   #Getting all the movie names, links and ratings that come up in the search result
+   
+   #Note: Each search result's title is stored in a div with the css class = 'ZINbbc xpd O9g5cc uUPGi'.
+   #Within each search result, the h3 tag with the class = 'zBAuLc' contains the title of the movie.
+   #Additionally, within each search result, the span tag with the class = 'r0bn4c rQMQod tP9Zud'
+   # contains the IMDB rating of the movie.
+   
+   search = soup.find_all('div', {'class': 'ZINbbc xpd O9g5cc uUPGi'})
+
+   for result in search:
+       try:
+         h3_tag = result.find('h3', {'class': 'zBAuLc'})
+         movie_name = h3_tag.string
+         span_tag = result.find('span', {'class': 'oqSTJd'})
+         rating = span_tag.text
+         print("Movie Title:"),
+         print(movie_name)
+         print("IMDB Rating: "),
+         print(rating)
+         print(' ')
+      except:
+         pass
+
    ```
    
-
-
