@@ -204,7 +204,5 @@ I am working on writing a program that takes in a movie name as an input and ret
       print(" ")
       cleaned_movie_name = movie_name.split("|", 1)
       print("The IMDB rating of " + str(cleaned_movie_name[0]) + "is " + str(all_movie_ratings[0]))
-
-
    ```
    
