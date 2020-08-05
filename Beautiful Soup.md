@@ -144,26 +144,67 @@ I am working on writing a program that takes in a movie name as an input and ret
    #Additionally, within each search result, the span tag with the class = 'r0bn4c rQMQod tP9Zud'
    # contains the IMDB rating of the movie.
    
+   all_movie_names = []        
+   all_movie_ratings = []
+
    search = soup.find_all('div', {'class': 'ZINbbc xpd O9g5cc uUPGi'})
 
    for result in search:
-       try:
+      try:
          h3_tag = result.find('h3', {'class': 'zBAuLc'})
          movie_name = h3_tag.string
          span_tag = result.find('span', {'class': 'oqSTJd'})
          rating = span_tag.text
-         print("Movie Title:"),
-         print(movie_name)
-         print("IMDB Rating: "),
-         print(rating)
-         print(' ')
+         
+         #Since the goal is to only get IMDB ratings, the following line removes links with Rotten Tomato ratings. 
+         #'continue' moves on to the next iteration in the for loop.
+         
+         if "Rotten Tomatoes" in movie_name:
+            continue                             
+         
+         #The following line checks for repeat movie titles.
+         elif movie_name in all_movie_names:
+            continue
+            
+         #Aside from the previous two exceptions, all movie names and their respective ratings are appended to two lists.
+         else:
+            all_movie_names.append(movie_name)
+            all_movie_ratings.append(rating)
       except:
-         pass
+         continue
 
    #The reason I used try and except is because we only want search results that have both the movie
    #title as well as the movie rating. Any results that don't have this will fail when the line
    #rating = span_tag.text occurs in the program. After resulting in an error, the except: line is necessary
    #for the program to continue running.
+
+   #Next, we check if there are multiple results. If there are, the first 'if' sequence lists the different movie names 
+   #and asks the user to confirm which one they wanted to learn more about.
+   
+   if len(all_movie_names) > 1:
+      
+      print(" ")
+      print("Humans have made quite a few movies and shows throughout time! Which one in particular were you referring to?")
+      print(" ")
+      
+      count=1
+      
+      for option in all_movie_names:
+         print(str(count) + " - " + str(option))
+         count+=1
+
+   print(" ")
+   confirmation = input('Please input the number corresponding with the movie you would like to know about: ')
+   print(" ")
+    
+   print("The IMDB rating of " + str(all_movie_names[int(confirmation)-1]) + " is: " + str(all_movie_ratings[int(confirmation)-1]))
+
+   #On the contrary, if there is only one valid search result (i.e.: a movie name with a rating) then it is displayed to the user.
+   else:
+      print(" ")
+      cleaned_movie_name = movie_name.split("|", 1)
+      print("The IMDB rating of " + str(cleaned_movie_name[0]) + "is " + str(all_movie_ratings[0]))
+
 
    ```
    
