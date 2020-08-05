@@ -54,7 +54,7 @@ Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. An alternativ
             print(link.attrs['href'])    #This line would print the href attribute or link within the "About" 'a' tag.
      ```
 
-**Testing Understanding Of First Few Steps:**
+**Example Project: Testing Understanding Of First Few Steps**
 
 I will now obtain the links from the following website: https://www.whitehouse.gov/briefings-statements/. This is the white house's website and contains presidential briefings and statements. The goal of this test is to extract all of the links on the page that point to the briefings and statements. 
 
