@@ -6,7 +6,7 @@ Beautiful Soup is a Python package for parsing HTML and XML documents. It create
 
 ### Process
 
-Follow this tutorial: https://www.youtube.com/watch?v=87Gx3U0BDlo. An alternative tutorial that has been helpful is this: https://www.youtube.com/watch?v=ng2o98k983k. Below are the main lines of code that need to be understood.
+Below are the main lines of code that need to be understood.
 
 1. **Imports**
 
