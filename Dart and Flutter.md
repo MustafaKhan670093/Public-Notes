@@ -6,7 +6,7 @@ Dart is a client-optimized language developed by Google for fast apps on any pla
 
 ### Process
 
-I am learning how to program in dart and to use flutter to biuld apps by following this tutorial: https://www.youtube.com/watch?v=x0uinJvhNxI. I am documenting key points that I have learnt and which I find important to know in this document. My goal with learning Dart + Flutter is to be able to improve my skills in rapid prototyping by creating functioning apps.
+I am learning how to program in dart and to use flutter by following this tutorial: https://www.youtube.com/watch?v=x0uinJvhNxI. I am documenting key points that I have learned and which I find important to know in this document. My goal with learning Dart + Flutter is to be able to improve my skills in rapid prototyping by creating functioning apps.
 
 1. **Imports**
 
