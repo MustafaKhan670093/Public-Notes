@@ -44,7 +44,10 @@ I am learning how to program in dart and to use flutter by following this tutori
           //However, due to type-inference we don't need to state that as soon as we populate [].
           body: Column(
             children: [
-              Text('The question!'),
+               Text(
+                  questions.elementAt(0),      //This can also be written as questions[0]. Note also that wiriting . after a list like 'questions' gives many
+                                               //different ways one can go through a list pre-built into dart.
+               ),
               RaisedButton(
                 child: Text('Answer 1'),
                 onPressed:
