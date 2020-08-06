@@ -63,7 +63,8 @@ I am learning how to program in dart and to use flutter by following this tutori
                       'Answer 3 Chosen!'); //For answer 2 and answer 3, we are calling an anonymous function. This is useful if the function being called only       
                                            //really needs to be called once in the program. There isn't much of a need to store it elsewhere and call it.
                 },
-                //Side note: This anonymous function is still being named. It is only executed when pressed. If we were to add another () at the end of the function                 //we defined, it would then be called as the program begins and we would get an error (as explained before).
+                //Side note: This anonymous function is still being named. It is only executed when pressed. If we were to add another () at the end of the function
+                //we defined, it would then be called as the program begins and we would get an error (as explained before).
               ),
             ],
           ),
