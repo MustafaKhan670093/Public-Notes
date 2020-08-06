@@ -48,7 +48,7 @@ I am learning how to program in dart and to use flutter by following this tutori
               RaisedButton(
                 child: Text('Answer 1'),
                 onPressed:
-                    answerQuestion, //We passs the name of the function (by removing parenthesis) instead of the result (by calling the function with parenthesis).                                     //This is because onPressed takes in a function. The result would be a value of void, not a function and so we'd get an error.
+                    answerQuestion, //We passs the name of the function (by removing parenthesis) instead of the result (by calling the function with parenthesis). //This is because onPressed takes in a function. The result would be a value of void, not a function and so we'd get an error.
               ),
               RaisedButton(
                 child: Text('Answer 2'),
