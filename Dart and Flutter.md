@@ -8,7 +8,29 @@ Dart is a client-optimized language developed by Google for fast apps on any pla
 
 I am learning how to program in dart and to use flutter by following this tutorial: https://www.youtube.com/watch?v=x0uinJvhNxI. I am documenting key points that I have learned and which I find important to know in this document. My goal with learning Dart + Flutter is to be able to improve my skills in rapid prototyping by creating functioning apps.
 
-1. **Imports**
+1. **Conditional** Statements In Dart
+
+   ```
+   void main() {
+    var userName = 'Mustafa';
+    var password = 'test';
+    var age = 98;
+  
+    if (userName == 'Mustafa' && (password == 'test' || age > 18)) {
+      print('Logged In!');
+    }
+    else if (true) {
+      print('Overruled!');
+    }
+    else {
+      print('Failed!');
+    }
+   }
+   ```
+
+//The code above is a demonstration fo how conditional statements work in dart. //Note that && stands for 'and' while || stands for 'or'.
+
+2. 
 
    ```
    import 'package:flutter/material.dart';
