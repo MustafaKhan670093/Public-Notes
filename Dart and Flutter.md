@@ -26,9 +26,10 @@ I am learning how to program in dart and to use flutter by following this tutori
       print('Failed!');
     }
    }
+   
+   //The code above is a demonstration fo how conditional statements work in dart. 
+   //Note that && stands for 'and' while || stands for 'or'.
    ```
-
-//The code above is a demonstration fo how conditional statements work in dart. //Note that && stands for 'and' while || stands for 'or'.
 
 2. 
 
