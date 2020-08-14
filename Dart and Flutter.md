@@ -33,7 +33,7 @@ I am learning how to program in dart and to use flutter by following this tutori
 
 2. **Notes** on project.
    
-   Completed version of entire project can be found here: https://github.com/MustafaKhan670093/Personality-Test-App.
+   The completed version of the entire project can be found here: https://github.com/MustafaKhan670093/Personality-Test-App.
 
    ```
    import 'package:flutter/material.dart';
