@@ -1,17 +1,17 @@
 # Lane Detection
 
-### [Papers](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
+### [Papers](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#papers)
 
-- [2020](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
-- [2019](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
-- [2018](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
-- [2017](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
+- [2020](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#2020)
+- [2019](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#2019)
+- [2018](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#2018)
+- [2017](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#2017)
 
 ### [Code](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
 
-### [Blogs/Tutorial](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
+### [Blogs/Tutorial](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#blogtutorial-1)
 
-### [Datasets](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
+### [Datasets](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#datasets-1)
 
 # Papers
 
