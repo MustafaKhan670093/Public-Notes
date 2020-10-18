@@ -1,19 +1,19 @@
 # Lane Detection
 
-## [Paper](#Paper)
+### [Papers](#Papers)
 
 - [2020](#2020)
 - [2019](#2019)
 - [2018](#2018)
 - [2017](#2017)
 
-[Code](#Code)
+### [Code](#Code)
 
-[Blog/Tutorial](#Blog/Tutorial)
+### [Blog/Tutorial](#Blog/Tutorial)
 
-[Datasets](#Datasets)
+### [Datasets](#Datasets)
 
-# Paper
+# Papers
 
 ## 2020
 
