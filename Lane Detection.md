@@ -1,17 +1,17 @@
 # Lane Detection
 
-### [Papers](#Papers)
+### [Papers](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
 
-- [2020](#2020)
-- [2019](#2019)
-- [2018](#2018)
-- [2017](#2017)
+- [2020](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
+- [2019](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
+- [2018](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
+- [2017](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
 
-### [Code](#Code)
+### [Code](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
 
-### [Blog/Tutorial](#Blog/Tutorial)
+### [Blogs/Tutorial](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
 
-### [Datasets](#Datasets)
+### [Datasets](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
 
 # Papers
 
