@@ -1,8 +1,6 @@
 # Lane Detection
 
-Information from: https://github.com/amusi/awesome-lane-detection
-
-[Paper](#Paper)
+## [Paper](#Paper)
 
 - [2020](#2020)
 - [2019](#2019)
