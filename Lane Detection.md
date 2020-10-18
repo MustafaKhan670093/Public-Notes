@@ -9,7 +9,7 @@
 
 ### [Code](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#code-1)
 
-### [Blogs/Tutorial](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#blogtutorial-1)
+### [Blogs/Tutorial](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#blogtutorial)
 
 ### [Datasets](https://github.com/MustafaKhan670093/Public-Notes/blob/master/Lane%20Detection.md#datasets-1)
 
