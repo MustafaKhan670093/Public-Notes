@@ -1,6 +1,6 @@
 # Software Interview Questions
 
-Note: The following questions were originally compiled by a group known as [Developers Cosmos](https://github.com/developers-cosmos).
+<b>Note:</b> The following questions were originally compiled by a group known as [Developers Cosmos](https://github.com/developers-cosmos).
 <b>1.What is Software Testing?</b><br>
 Software Testing is evaluation of the software against requirements gathered from users and system specifications. Testing is conducted at the phase level in software development life cycle or at module level in program code. Software testing comprises of Validation and Verification.<br>
 
