@@ -74,7 +74,7 @@ https://medium.com/@jonathan_hui/lane-keeping-in-autonomous-driving-with-model-p
 
 ### What is redundancy?
 
-In engineering, redundancy is the duplication of critical components or functions of a system with the intention of increasing reliability of the system, usually in the form of a backup or fail-safe, or to improve actual system performance.
+In engineering, redundancy is the duplication of critical components or functions of a system with the intention of increasing reliability of the system, usually in the form of a backup or fail-safe, or to improve actual system performance
 
 ### What is Optical Flow?
 
